@@ -1,22 +1,19 @@
 # Checklists for FE development
 
-I write these checklists for myself only.
+Here are checklists that help me not to forget important things.
 
-## Global advices
-
-- [ ] Use Git
-- [ ] Peer review code
-- [ ] Add CI/CD
-- [ ] Use transparent task management process
-- [ ] 1 task = 1 branch in Git
-- [ ] Add autotests
-- [ ] Use an error monitoring system
-
-Sources:
-* [(Russian) Плохие практики разработки, которые до сих пор встречаю в стартапах](https://habr.com/ru/post/719352/)
-* [(Russian) Miro scheme](https://miro.com/app/board/uXjVP7vl1vk=/)
-
-## Working with images
+## Images
 
 - [ ] Add `user-select: none` (CSS) to image containers, `draggable: false` (HTML) to images
-- [ ] Add `@media (hover: hover) {}` (CSS) for hover animations. Helps to avoid problems with strange effects on phones
+- [ ] Set `display: block` on `img` (CSS). Otherwise it might behave randomly 
+- [ ] Set `width`, `height`, `alt`  on `img` (HTML)
+- [ ] Optimize images. Use tinypng, then convert to webp. Use `loading="lazy"`
+- [ ] Display blurry bg to images. Bluhash / extra low resolution img versions / `Image` in NextJS
+
+## Page Load
+
+- [ ] Show spinner until React App starts. Use CSS for spinner
+
+## Hover animations
+
+- [ ] Add `@media (hover: hover) {}` (CSS) for hover animations. Phones don't have hover effects
