@@ -17,6 +17,7 @@ Here are checklists that help me not to forget important things.
 - [ ] Set `width`, `height`, `alt`  on `img` (HTML)
 - [ ] Optimize images. Use tinypng, then convert to webp. Use `loading="lazy"`
 - [ ] Display blurry versions of images until main images don't load. Bluhash / extra low resolution img versions / `Image` in NextJS / Skeletons
+- [ ] (_if an image may be enlarged by clicking_) Set `cursor: zoom-in;` on hover. Consider displaying zoom-in icon on hovering
 
 ## Page Load
 
