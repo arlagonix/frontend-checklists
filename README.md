@@ -8,7 +8,6 @@ Here are checklists that help me not to forget important things.
 - [ ] Add description `<meta name="description" content="paste your description here" />`
 - [ ] Add favicon `<link rel="icon" type="image/png" href="/favicon.png" />`
 - [ ] Add preview image. Via og:, twitter, etc. `<link rel="image_src" href="./assets/preview.webp" />` (there is much more really)
-- [ ] 
 
 ## Images
 
