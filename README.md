@@ -25,6 +25,7 @@ Here are checklists that help me not to forget important things.
 ## Hover animations
 
 - [ ] Add `@media (hover: hover) {}` (CSS) for hover animations. Phones don't have hover effects
+- [ ] Think about the ways how information displaying when hovering is gonna be displayed on phones.
 
 ## Download
 
