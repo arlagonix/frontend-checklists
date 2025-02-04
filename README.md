@@ -22,6 +22,9 @@ Here are checklists that help me not to forget important things.
 
 - [ ] Show spinner until React App starts. Use CSS for spinner
 
+## Fonts
+- [ ] Preload fonts so text doesn't flicker when the page loads
+
 ## Hover animations
 
 - [ ] Add `@media (hover: hover) {}` (CSS) for hover animations. Phones don't have hover effects
