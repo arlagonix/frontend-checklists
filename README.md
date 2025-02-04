@@ -35,4 +35,4 @@ Here are checklists that help me not to forget important things.
 - [ ] Display skeletons or spinners when downloading, or in process
 
 ## Other
-- [] Add CSS Reset. https://www.joshwcomeau.com/css/custom-css-reset/
+- [ ] Add CSS Reset. https://www.joshwcomeau.com/css/custom-css-reset/
